@@ -1,0 +1,14 @@
+.pop-out{
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    height: 60vh;
+    width: 40vw;
+    min-height: 300px;
+    min-width: 300px;
+    background-color: rgb(146, 146, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
