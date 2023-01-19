@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Sofia+Sans:wght@500&display=swap');
+*{
+    font-family: 'Sofia Sans', sans-serif;
+}
 .pop-out{
     position: absolute;
     top: 20vh;
     left: 30vw;
-    height: 60vh;
+    height: 50vh;
     width: 40vw;
     min-height: 300px;
     min-width: 300px;
@@ -11,4 +15,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    row-gap: 5px;
+    font-size: 20px;
+}
+
+.header{
+    position: absolute;
+    top: 5%;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.bill{
+    width: 50%;
+    
 }
