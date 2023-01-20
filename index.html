@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="pop-out">
+    <div id="pop-out">
         <div class="header">
             Tip Calculator
         </div>
-        <input type="text" class="bill" placeholder="Bill amount">
-        <div class="slider">
-            Percent to tip:<input class="tip-slider" type="range" min="5" max="30">
+        <input type="text" id="input-bill" placeholder="Bill amount">
+        <div id="slider">
+            Percent to tip: <label id="rangeValue"></label><input id="tipSlider" type="range" min="5" max="25" oninput="rangeValue.innerText = this.value + '%' ">
         </div>
-        <div class="tip-amount">Tip amount: </div>
-        <div class="total">Total with tip: </div>
+        <div>Tip amount: <label id="tipAmountText"></label></div>
+        <div>Total with tip: <label id="totalText"></label></div>
     </div>
     <script src="script.js"></script>
 </body>
