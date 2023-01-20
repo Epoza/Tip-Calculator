@@ -2,14 +2,14 @@
 *{
     font-family: 'Sofia Sans', sans-serif;
 }
-.pop-out{
+#pop-out{
     position: absolute;
     top: 20vh;
     left: 30vw;
     height: 50vh;
     width: 40vw;
     min-height: 300px;
-    min-width: 300px;
+    min-width: 350px;
     background-color: rgb(146, 146, 145);
     display: flex;
     justify-content: center;
@@ -17,6 +17,8 @@
     flex-direction: column;
     row-gap: 5px;
     font-size: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px;
 }
 
 .header{
@@ -26,7 +28,7 @@
     font-weight: 900;
 }
 
-.bill{
+#input-bill{
     width: 50%;
-    
+    font-size: 20px;
 }
